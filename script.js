@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (resultImg && blessingText) {
     const selected = localStorage.getItem('selectedCookie');
     if (selected) {
-      resultImg.src = `${selected}.png`;
+      resultImg.src = `assets/${selected}.png`;
       // Placeholder blessings
       const blessings = {
         cookie1: '願你在星海中永遠找到彼此。',

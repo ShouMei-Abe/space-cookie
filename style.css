@@ -39,3 +39,18 @@ body {
   transform: scale(1.1);
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
 }
+
+.star-return {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 28px;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.star-return:hover {
+  transform: scale(1.2) rotate(20deg);
+  color: #ffcc00; /* 懸停時變成金黃色 */
+}
